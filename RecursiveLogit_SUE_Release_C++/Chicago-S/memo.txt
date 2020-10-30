@@ -1,0 +1,11 @@
+周老师：
+借助您的STALite，我把随机分配的dial算法实现了一下，在RecursiveSUE中，dial主要作用是分配一个初始解和生成Subnetwork，是第一步。
+您看一下，程序中斜线中是我加的内容。
+
+PS：RLSUE.exe是编译后的，结果在link_performance_dial.csv里面，code在main_api.csv
+
+Q1：我的内存大概只能撑15000个od左右，用时44s，但并行好像并没用上，不清楚原因。
+Q2：不太会做内存，导致内存开销太大，不知道问题在哪，每1000od就要多100mb，这样下去做Recursive可能就不够用了。
+Q3：其中算SPP部分我为了简单用Floyd，标号法好很多？可以先用着。
+主要想和问您一下Q1,Q2，dial方法比较固定，主要问题应该在编程上。
+

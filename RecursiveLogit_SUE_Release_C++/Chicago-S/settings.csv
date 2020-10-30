@@ -1,0 +1,4 @@
+section,field,value,notation
+assignment,number_of_iterations,20,iteration for path pool generation
+assignment,assignment_mode,2,0: generate path pool; 1: generate path flow
+assignment,column_updating_iterations,1,0: without assignment
